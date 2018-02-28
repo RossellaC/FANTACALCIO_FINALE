@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Class-Path:
+
+L'applicazione web è stata strutturata  per sviluppare un campionato vero,
+ovvero una lega nella quale vengono emesse le giornate con le varie 
+ partite tra due giocatori.I punti dei calciatori vengono sommati sommariamente 
+ in modo da vedere chi vince fra i due sfidanti. Il vincitore acquisisce 3 punti, 
+ 1 punto  ad entrambe le squadre se pareggiano, come nel vero campionato di seria A.
+ Quindi la classifica non era data dalla somma  dei voti dei calciatori che si 
+ possedavano in ogni partita ma dai punti ottenuti nelle sfide.
+  
+  Per motivi di tempo nel corso della progettazione abbiamo semplificato il 
+  conteggio dei voti dei calciatori. Per ogni giornata si fa la somma di tutti
+   i voti dei calciatori di ogni squadra. A fine campionato chi ha il punteggio
+    più alto vince.
+    
+ Nel progetto vi sono due pulsanti, "Aggiorna " e "Modifica" , il primo presente 
+ nella pagina Dettagli lega e l'altro nella pagina voti che non sono stati 
+ implementati.
+ 
+ L'applicazione web si avvia cliccando sul nome del progetto. In caso di errore chiudere e aprire l'applicazione.
+ Il seguente progetto è stato sviluppato utilizzando eclipse-oxygen.
+ 
+ Le credenziali per accedere al database sono: username = postgres e password = postgres.
+ Per creare il database bisogna creare il database denominato Fantacalcio.
+ Per riempire il database basta avviare il file MainJDBC.java che si trova nel percorso src/persistence.
+ 
+ I bugs che abbiamo riscontrato al termine del progetto sono:
+ 
+ 1.Affinchè la registrazione utente vada a buon fine il database deve essere attivo.
+ 2.Il budget inserito deve essere un numero intero.
+ 3.Affinchè la creazione della lega vada a buon fine tutti i campi devono essere completati.
+ 4.Il browser Safari crea problemi nel creare le giornate di campionato.
+ 5.L'amministratore affinchè possa accedere deve essere prima inserito manualmente nel database 
+ nella tabella amministratore.
+ 
+ 

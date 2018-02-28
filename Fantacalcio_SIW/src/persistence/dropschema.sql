@@ -1,0 +1,10 @@
+drop table if exists public.gioca; 
+drop table if exists public.partita;
+drop table if exists public.giornata; 
+drop table if exists public.composta;
+drop table if exists public.squadra;
+drop table if exists public.invito;
+drop table if exists public.lega; 
+drop table if exists public.utente;
+drop table if exists public.calciatore;
+drop table if exists public.amministratore;
